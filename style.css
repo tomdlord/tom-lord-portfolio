@@ -234,11 +234,10 @@ footer{
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 14vw;
     font-weight: 500;
-    line-height: 0.2;
+    line-height: 0.15;
     letter-spacing: 0px;
     color: white;
     opacity: 1;
-    grid-column: 1 / span ;
   }
 
   .projecttext {
@@ -255,9 +254,11 @@ footer{
 
 
 
-@media (max-width: 635px) {
+@media (max-width: 800px) {
 
-
+  h1 {
+    font-size: 12vh;
+  }
 
   h3 {
     font-size: 30px;
@@ -293,7 +294,7 @@ footer{
   .statement{
     position: relative;
     left: 24px;
-    top: 60%;
+    top: 45%;
     z-index: -1;
     animation-name: herofadein;
     animation-duration: 2.5s;
@@ -306,7 +307,7 @@ footer{
   }
 
   .intro {
-    padding-top: 80vh;
+    padding-top: 60vh;
   }
 
 
